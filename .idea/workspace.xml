@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="638ab331-3dfb-455b-bf53-e2e3b4404a46" name="Changes" comment="feature: exercise of product score">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/config/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/exception/FutureSupportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/model/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/model/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/model/ProductScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/model/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/model/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/service/CustomerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/service/SalesDealerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/service/impl/CustomerRulesImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/service/impl/RegisteredSalesDealerHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/util/OperatorCompareUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/score/util/PropertyValueUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/test/score/service/CustomerHandlerSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/test/score/util/ProductStub.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml_diagram.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="stg-ew4-003" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LdvEjpPLs3sB3e5gj32ATnb45W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.test.score.service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerHandlerSpec.given - deal products and buying rule, when fetching product match score, then should return products with score">
+    <configuration name="CustomerHandlerSpec.given - Negative buying rule, when fetching product match score, then should return products with scores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-score" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.score.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.score.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.score.service.CustomerHandlerSpec" />
+      <option name="METHOD_NAME" value="given - Negative buying rule, when fetching product match score, then should return products with scores" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerHandlerSpec.given - buying rules, when fetching product match score, then should return products with scores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-score" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.score.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.score.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.score.service.CustomerHandlerSpec" />
+      <option name="METHOD_NAME" value="given - buying rules, when fetching product match score, then should return products with scores" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerHandlerSpec.given - deal products and buying rule, when fetching product match score, then should return products with score" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-score" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.score.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.score.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.score.service.CustomerHandlerSpec" />
+      <option name="METHOD_NAME" value="given - deal products and buying rule, when fetching product match score, then should return products with score" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-score" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.score.service.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.score.service.util" />
+      <option name="MAIN_CLASS_NAME" value="com.test.score.service.util.TestClass" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="JUnit.CustomerHandlerSpec.given - deal products and buying rule, when fetching product match score, then should return products with score" />
+      <item itemvalue="JUnit.CustomerHandlerSpec.given - Negative buying rule, when fetching product match score, then should return products with scores" />
+      <item itemvalue="JUnit.CustomerHandlerSpec.given - buying rules, when fetching product match score, then should return products with scores" />
+      <item itemvalue="JUnit.TestClass.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerHandlerSpec.given - deal products and buying rule, when fetching product match score, then should return products with score" />
+        <item itemvalue="JUnit.CustomerHandlerSpec.given - Negative buying rule, when fetching product match score, then should return products with scores" />
+        <item itemvalue="JUnit.CustomerHandlerSpec.given - buying rules, when fetching product match score, then should return products with scores" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="JUnit.TestClass.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="638ab331-3dfb-455b-bf53-e2e3b4404a46" name="Changes" comment="" />
+      <created>1676213666160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676213666160</updated>
+      <workItem from="1676213667426" duration="11573000" />
+      <workItem from="1676226928854" duration="10094000" />
+      <workItem from="1676379360734" duration="15338000" />
+      <workItem from="1676412684737" duration="888000" />
+      <workItem from="1676457575214" duration="13484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature: exercise of product score" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: exercise of product score" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/score/util/OperatorCompareUtil.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
